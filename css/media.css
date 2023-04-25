@@ -1,0 +1,465 @@
+@media (max-width: 1024px) {
+
+    .title::after {
+        font-size: 115px;
+    }
+
+    .program__text-wrapper {
+        width: 100%;
+    }
+
+    .program__img {
+        z-index: -100;
+    }
+    .program__text {
+        max-width: 100%;
+    }
+
+    .program__descr-top {
+        max-width: 65%;
+    }
+
+    .you-can__list {
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+    
+    .you-can__element {
+        width: calc(100% / 2 - 56px);
+    }
+
+    .school__item {
+        width: 100%;
+    }
+
+    .tutors__element {
+        width: calc(100% / 2 - 20px);
+    }
+
+    .partner__list {
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        -ms-flex-wrap: wrap;
+            flex-wrap: wrap;
+    }
+
+    .program-gives__subtitle {
+        margin-bottom: 40px;
+    }
+
+    .partner__element {
+        width: calc(100% / 2 - 20px);
+    }
+
+    .questions__descr {
+        width: 100%;
+    }
+
+    .education-module__content-left {
+        width: 80%;
+    }
+
+    .education-module__content-right {
+        width: 100%;
+    }
+
+    .education-module__content {
+        row-gap: 50px;
+    }
+
+    .education-module__content::after {
+        width: 100%;
+        height: 2px;
+        top: 50%;
+        left: 0;
+    }
+
+    .contacts__map {
+        width: 100% !important;
+    }
+
+}
+@media (max-width: 768px) {
+    .title::after {
+        font-size: 40px;
+    }
+
+    .title {
+        font-size: 50px;
+    }
+
+    .hero__title {
+        font-size: 70px;
+    }
+
+    .program__img {
+        width: 20%;
+    }
+
+    .you-can__element {
+        width: 100%;
+        padding: 50px;
+        border-radius: 0;
+    }
+
+    .you-can__element::before {
+        height: 100%;
+    }
+
+    .you-can__subtitle {
+        margin-bottom: 30px;
+    }
+
+    .you-can__text,
+    .you-can__subtitle {
+        width: 50%;
+    }
+
+    .school__title::after {
+        bottom: 0;
+    }
+
+    .school__item {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+
+    .school-location {
+        background-color: transparent;
+    }
+
+    .school__content-wrapper--dark {
+        background-color: var(--color--additional);
+    }
+
+    .partner__text-wrapper {
+        width: 100%;
+    }
+
+    .partner__element {
+        width: 100%;
+    }
+
+    .direction__descr {
+        text-align: center;
+    }
+
+    .author__list {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+    }
+
+    .author__content-left {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+    }
+
+    .author__item:nth-child(2) {
+        -webkit-box-ordinal-group: 0;
+            -ms-flex-order: -1;
+                order: -1;
+    }
+
+    .author__text-wrapper {
+        width: 50%;
+        position: relative;
+        left: 0;
+        background-color: transparent;
+    }
+
+    .quote__text {
+        font-size: 17px;
+    }
+
+    .quote__descr {
+        position: absolute;
+        bottom: 0;
+        left: -90%;
+        font-size: 50px;
+        color: var(--color-accent);
+    }
+
+    .education-module__content::after {
+        content: none;
+    }
+
+    .education-module__content-left {
+        padding-bottom: 10px;
+        border-bottom: 2px solid var(--color-accent);
+    }
+
+    .codel__descr {
+        width: 100%;
+    }
+
+    .codel__list {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+
+    .codel__descr-wrapper {
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+        width: 100%;
+    }
+
+    .codel__item-descr {
+        font-size: 27px;
+
+    }
+
+    .codel__item-img {
+        width: 100%;
+        height: 250px;
+    }
+
+    .codel__item-img--second {
+        display: none;
+    }
+
+    .codel__descr-wrapper--bottom {
+        -webkit-box-ordinal-group: 6;
+            -ms-flex-order: 5;
+                order: 5;
+    }
+
+    .codel__item-img--last {
+        -webkit-box-ordinal-group: 5;
+            -ms-flex-order: 4;
+                order: 4;
+    }
+
+    .tariff-variants__list {
+        row-gap: 100px;
+    }
+
+    .footer__list {
+        -webkit-box-pack: justify;
+            -ms-flex-pack: justify;
+                justify-content: space-between;
+    }
+
+    .footer__content-right {
+        display: none;
+    }
+
+    .footer__content-center {
+        text-align: end;
+    }
+
+    .company__imgs {
+        -webkit-box-pack: end;
+            -ms-flex-pack: end;
+                justify-content: end;
+    }
+
+    .form__label {
+        width: 100%;
+    }
+}
+@media (max-width: 576px) {
+    .title {
+        font-size: 45px;
+    }
+
+    .btn {
+        font-size: 20px;
+    }
+
+    .hero__caption {
+        font-size: 13px;
+    }
+    .hero__title {
+        font-size: 50px;
+    }
+    
+    .program__descr {
+        font-size: 14px;
+    }
+
+    .program__text {
+        font-size: 15px;
+    }
+
+    .program__descr-top {
+        max-width: 100%;
+    }
+
+    .program__descr-bottom::after {
+        right: 0;
+        left: 40px;
+        bottom: -66px;
+    }
+
+    .program__descr-bottom::before {
+        bottom: -50px;
+        left: 120px;
+    }
+
+    .program__img {
+        display: none;
+    }
+    
+    .you-can__descr {
+        font-size: 16px;
+    }
+
+    .you-can__subtitle,
+    .you-can__text {
+        width: 100%;
+    }
+
+    .you-can__text {
+        font-size: 15px;
+    }
+
+    .you-can__element::before {
+        content: none;
+    }
+
+    .school__item::before {
+        width: 213px;
+        height: 208px;
+        margin-bottom: 30px;
+    }
+
+    .school-location::before {
+        content: none;
+    }
+
+    .school__descr {
+        font-size: 14px;
+    }
+
+    .author-history__element {
+        width: 40%;
+    }
+
+    .quote__text {
+        font-size: 3vw;
+    }
+
+    .quote__descr {
+        font-size: 26px;
+    }
+
+    .tutors__element {
+        width: 100%;
+    }
+
+    .contacts__text-wrapper {
+        padding: 10px 20px;
+    }
+
+    .contacts__subtitle {
+        font-size: 15px;
+    }
+
+    .footer__list {
+        -webkit-box-orient: vertical;
+        -webkit-box-direction: normal;
+            -ms-flex-direction: column;
+                flex-direction: column;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+        gap: 100px;
+    }
+
+    .footer__item {
+        width: 100%;
+        text-align: center;
+    }
+
+    .bank {
+        gap: 20px;
+        -webkit-box-align: center;
+            -ms-flex-align: center;
+                align-items: center;
+    }
+
+    .company__imgs {
+        -webkit-box-pack: center;
+            -ms-flex-pack: center;
+                justify-content: center;
+    }
+
+    .footer__content-center {
+        gap: 20px;
+    }
+
+}
+
+@media (max-width: 320px) {
+    .title::after {
+        font-size: 10px;
+    }
+
+    .title {
+        font-size: 25px;
+        line-height: 44px;
+    }
+
+    .hero__title {
+        font-size: 35px;
+    }
+
+    .hero__descr {
+        font-size: 20px;
+    }
+
+    .author-history__element {
+        width: 100%;
+    }
+    
+    .you-can__element::before {
+        content: none;
+    }    
+
+    .you-can__text {
+        width: 100%;
+    }
+
+    .quote__text {
+        font-size: 3vw;
+    }
+
+    .quote__descr {
+        font-size: 20px;
+    }
+
+    .education-module__subtitle {
+        font-size: 18px;
+    }
+
+    .cases__container::after {
+        height: 200px;
+    }
+
+    .program-gives__subtitle {
+        font-size: 18px;
+    }
+
+    .program-gives__caption {
+        font-size: 15px;
+    }
+
+    .contacts__text-wrapper {
+        right: 0;
+    }
+}
